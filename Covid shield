@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about COVID-19, how to stay safe, and what steps to take to protect yourself and your community.">
+    <title>COVID-19 Awareness</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(to bottom, #f4f4f9, #e0e7ff);
+        }
+        header {
+            background: linear-gradient(to right, #007bff, #00d4ff);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            padding: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #007bff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 3rem;
+        }
+        .section h2 {
+            color: #007bff;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background: #007bff;
+            color: #fff;
+            margin-top: 3rem;
+            font-size: 1rem;
+        }
+        .cta {
+            background: linear-gradient(to right, #00d4ff, #007bff);
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-top: 3rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .cta a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .cta a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 0.5rem 0;
+            font-size: 1.1rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        ul li::before {
+            content: '\2713';
+            color: #007bff;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>COVID-19 Awareness</h1>
+        <p>Stay informed. Stay safe. Stop the spread.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About COVID-19</a>
+        <a href="#prevention">Prevention</a>
+        <a href="#symptoms">Symptoms</a>
+        <a href="#resources">Resources</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About COVID-19</h2>
+            <p>COVID-19 is a respiratory illness caused by the SARS-CoV-2 virus. It spreads primarily through respiratory droplets and can cause mild to severe symptoms. Protecting yourself and others is essential to limit its spread.</p>
+        </section>
+
+        <section id="prevention" class="section">
+            <h2>Prevention</h2>
+            <ul>
+                <li>Wear a mask in crowded or indoor spaces.</li>
+                <li>Wash your hands regularly with soap and water for at least 20 seconds.</li>
+                <li>Maintain a safe distance of at least 1.5 meters from others.</li>
+                <li>Avoid touching your face with unwashed hands.</li>
+                <li>Get vaccinated and stay updated with booster doses.</li>
+            </ul>
+        </section>
+
+        <section id="symptoms" class="section">
+            <h2>Symptoms</h2>
+            <p>Common symptoms of COVID-19 include:</p>
+            <ul>
+                <li>Fever or chills</li>
+                <li>Cough</li>
+                <li>Shortness of breath</li>
+                <li>Fatigue</li>
+                <li>Loss of taste or smell</li>
+            </ul>
+            <p>If you experience severe symptoms, such as difficulty breathing or persistent chest pain, seek medical attention immediately.</p>
+        </section>
+
+        <section id="resources" class="section">
+            <h2>Resources</h2>
+            <p>For more information and support, visit these trusted sources:</p>
+            <ul>
+                <li><a href="https://www.who.int" target="_blank">World Health Organization (WHO)</a></li>
+                <li><a href="https://www.cdc.gov" target="_blank">Centers for Disease Control and Prevention (CDC)</a></li>
+                <li><a href="https://www.rivm.nl" target="_blank">Rijksinstituut voor Volksgezondheid en Milieu (RIVM)</a></li>
+            </ul>
+        </section>
+
+        <div class="cta">
+            <p>Take action today to protect yourself and your community. <a href="#prevention">Learn how</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 COVID-19 Awareness Initiative. All rights reserved.</p>
+    </footer>
+</body>
+</html>
